@@ -9,7 +9,7 @@ Var
     A, B, C: Inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Secao de Comandos, procedimento, funções, operadores, etc...
       A <- 2
       B <- 3
       C <- 5
