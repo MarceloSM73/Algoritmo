@@ -1,4 +1,4 @@
-Algoritmo "Operadores Lógicos"
+Algoritmo "Operadores_Logicos"
 // Disciplina   : [Algoritmo]
 // Professor   : Gustavo Guanabara
 // Descrição   : Operadores Lógicos Relacionais
