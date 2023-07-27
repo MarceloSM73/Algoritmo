@@ -18,7 +18,7 @@ Inicio
       Escreva("Quantos reais voce tem? ")
       Leia(reais)
       dollar <- reais / 5
-      EscrevaL("Voce tem ", dollar, " dolares")
+      EscrevaL("Voce tem ", dollar:5:2, " dolares")
       c <- c + 1
    FimEnquanto
 Fimalgoritmo
