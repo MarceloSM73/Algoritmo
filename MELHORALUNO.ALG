@@ -7,8 +7,8 @@ Algoritmo "MelhorAluno"
 Var
 // Seção de Declarações das variáveis 
    Q, cont : inteiro
-   nota, maior : real
-   nome : caractere
+   nota, maiorNota : real
+   nome, melhorAluno : caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -26,11 +26,12 @@ Inicio
       Escreva ("Nota do ", nome,": ")
          Leia (nota)
    Escreval ("----------------------")
-      Se (nota > maior) entao
-         maior <- nota
+      Se (nota > maiorNota) entao
+         maiorNota <- nota
+         melhorAluno <- nome
       FimSe
       cont <- cont + 1
       FimEnquanto
-      EscrevaL ("O melhor aproveitamento foi de ", nome, ", com a nota ", maior, ".")
+      EscrevaL ("O melhor aproveitamento foi de ", melhorAluno, ", com a nota ", maiorNota, ".")
 
 Fimalgoritmo
